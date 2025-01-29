@@ -304,3 +304,19 @@ html,body{
 a{
     text-decoration: none;
 }
+@media only screen and (max-width:768px){
+    .conatiner-fluid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        padding: auto;
+    }
+    .gen-key-logo-section{
+        margin-top: 40%;
+        width: 100%;
+        height: 90%;
+        background-size: cover;
+    }
+}
