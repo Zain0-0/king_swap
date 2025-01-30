@@ -319,6 +319,22 @@ a{
     text-decoration: none;
 }
 
+.gen-key-content-divs{
+    padding: 10px;
+}
+.gen-key-logo-section{
+    height: 430px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.fire-ball-vector{
+    height: 50px;
+    width: 50px;
+    border: 10px solid rgb(40, 40, 40);
+}
+.gen-key-content{
+    padding: 20px;
+}
 @media only screen and (max-width:768px){
     .conatiner-fluid{
         display: flex;
