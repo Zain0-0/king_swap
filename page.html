@@ -62,7 +62,7 @@
             </div>
         </section>
         <section class="gen-key-logo-section ">
-            
+
             <div class="gen-key ">
                 <div class="gen-key-heading d-flex justify-content-between align-items-center">
                     <div class="gen-key-logo-content d-flex align-items-center">
@@ -74,7 +74,7 @@
                         </div>
                     </div>
                     <div class="setting d-flex align-items-center">
-                        <p  class="size14">MevSafe 50% slippage</p>
+                        <p class="size14">MevSafe 50% slippage</p>
                         <img src="./assets/images/setting.svg" alt="">
                     </div>
                 </div>
@@ -83,30 +83,46 @@
                         <div>
                             <p class="size14">you pay</p>
                         </div>
+
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="gen-key-content-divs-text">
                                 <p class="size36">2.35</p>
                             </div>
                             <div class="ethr-div d-flex align-items-center px-1">
-                                <div class="dropdown-div ">
-                                    <button class=" form-select" type="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false">
+                                <div class="dropdown-div">
+                                    <!-- Button with dynamic content -->
+                                    <button class="form-select" type="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false" id="dropdownButton">
                                         <img src="./assets/images/ethr.png" height="18px" alt=""> ETHR
                                     </button>
+                                    <!-- Dropdown menu -->
                                     <ul class="dropdown-menu text-white">
-                                        <li><a class="dropdown-item" href="#"><img src="./assets/images/Vector.svg"
-                                                    height="18px" alt=""> KING</a></li>
-                                        <li><a class="dropdown-item" href="#"><img src="./assets/images/Group.png"
-                                                    height="18px" alt=""> PEPE</a></li>
-                                        <li><a class="dropdown-item" href="#"><img src="./assets/images/ethr.png"
-                                                    height="18px" alt=""> BTC</a></li>
+                                        <li>
+                                            <a class="dropdown-item" href="#"
+                                                onclick="selectOption('./assets/images/Vector.svg', 'KING')">
+                                                <img src="./assets/images/Vector.svg" height="18px" alt=""> KING
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#"
+                                                onclick="selectOption('./assets/images/Group.png', 'PEPE')">
+                                                <img src="./assets/images/Group.png" height="18px" alt=""> PEPE
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#"
+                                                onclick="selectOption('./assets/images/ethr.png', 'ETHR')">
+                                                <img src="./assets/images/ethr.png" height="18px" alt="">ETHR
+                                            </a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
+
                     </div>
-                    <div class="fire-ball-parent justify-content-center"> 
-                        
+                    <div class="fire-ball-parent justify-content-center">
+
                         <div class=" fire-ball-vector " id="fire-ball-king">
                             <img src="./assets/images/Vector.png" alt="">
                         </div>
@@ -129,7 +145,26 @@
                             </div>
                         </div>
                     </div>
-                  
+                    <!-- <div class="gen-key-button" id="gen-key-button-id">
+                        
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop" >
+                            Generate Privet Key
+                        </button>
+
+                        
+                        <div class="modal  " id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog  modal-dialog-centered custom-modal-dialog">
+                                <div class="modal-content">
+                                    <p class="size18">ENTER YOUR PRIVET KEY</p>
+                                    <input type="text" placeholder="RANDOM3348347i2301238123">
+                                    <button type="button" class="btn btn-primary d-block"  id="continue-button" onclick="myFunction()">CONTINUE</button>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
                     <div class="token-selection " id="token-selection-id">
                         <button>SELECT A TOKEN</button>
                     </div>
@@ -150,11 +185,15 @@
                 </div>
             </div>
             <div class="entry-current  d-flex justify-content-between align-items-center ">
-                <div class="entry"><p class="size14">Entry</p></div>
-                <div class="entry"><p class="size14">Current</p></div>
+                <div class="entry">
+                    <p class="size14">Entry</p>
+                </div>
+                <div class="entry">
+                    <p class="size14">Current</p>
+                </div>
             </div>
             <div class="holding-value  d-flex justify-content-between align-items-center">
-                
+
                 <div class="value">
                     <p class="size15">0.3</p>
                     <p class="size14 text-white">$672.32</p>
@@ -169,7 +208,7 @@
                 </div>
             </div>
             <div class="holding-value  d-flex justify-content-between align-items-center">
-                
+
                 <div class="value">
                     <p class="size15">0.3</p>
                     <p class="size14 text-white">$672.32</p>
@@ -183,7 +222,7 @@
                     <p class="size14 text-white">$672.32</p>
                 </div>
             </div>
-           
+
         </section>
     </div>
 
