@@ -36,23 +36,41 @@
                             <div class="gen-key-content-divs-text">
                                 <p class="size36">2.35</p>
                             </div>
-                            <div class="ethr-div d-flex align-items-center px-1">
-                                
-                                <div class="dropdown-div ">
-                                    <button class=" form-select" type="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false">
-                                        <img src="./assets/images/ethr.png" height="18px" alt=""> ETHR
-                                    </button>
-                                    <ul class="dropdown-menu text-white">
-                                        <li><a class="dropdown-item" href="#"><img src="./assets/images/Vector.svg"
-                                                    height="18px" alt=""> ETHR</a></li>
-                                        <li><a class="dropdown-item" href="#"><img src="./assets/images/Group.png"
-                                                    height="18px" alt=""> ETHR</a></li>
-                                        <li><a class="dropdown-item" href="#"><img src="./assets/images/ethr.png"
-                                                    height="18px" alt=""> ETHR</a></li>
-                                    </ul>
+
+                            <div class="d-flex justify-content-between align-items-center">
+
+                                <div class="ethr-div d-flex align-items-center px-1">
+                                    <div class="dropdown-div">
+                                        <!-- Button with dynamic content -->
+                                        <button class="form-select" type="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false" id="dropdownButton">
+                                            <img src="./assets/images/ethr.png" height="18px" alt=""> ETHR
+                                        </button>
+                                        <!-- Dropdown menu -->
+                                        <ul class="dropdown-menu text-white">
+                                            <li>
+                                                <a class="dropdown-item" href="#"
+                                                    onclick="selectOption('./assets/images/Vector.svg', 'KING')">
+                                                    <img src="./assets/images/Vector.svg" height="18px" alt=""> KING
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#"
+                                                    onclick="selectOption('./assets/images/Group.png', 'PEPE')">
+                                                    <img src="./assets/images/Group.png" height="18px" alt=""> PEPE
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#"
+                                                    onclick="selectOption('./assets/images/ethr.png', 'ETHR')">
+                                                    <img src="./assets/images/ethr.png" height="18px" alt="">ETHR
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                     <div class="fire-ball-parent justify-content-center">
@@ -102,12 +120,12 @@
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
 
         </section>
-        
+
     </div>
 
 
