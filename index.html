@@ -12,57 +12,9 @@
 <body>
 
     <div class="conatiner-fluid d-flex justify-content-center align-items-center">
-        <!-- <section class="gen-key-logo-section  holding-active " id="holding-section">
-            <div class="holdings">
-                <div class="holding-value  d-flex justify-content-between align-items-center">
-                    <div class="hold">
-                        <h2 class="size18">Holdings</h2>
-                    </div>
-                    <div class="value">
-                        <h2 class="size18">$1,125</h2>
-                        <p class="size14 gray">Estimated Value</p>
-                    </div>
-                </div>
-                <div class="holding-value  d-flex justify-content-between align-items-center">
-                    <div class="hold d-flex align-items-center">
-                        <div class="gen-key-logo-content-img">
-                            <img src="./assets/images/ethr.png" alt="crown-pic">
-                        </div>
-                        <h2 class="size18">ETHR</h2>
-                    </div>
-                    <div class="value">
-                        <p class="size15">0.3</p>
-                        <p class="size14 text-white">$672.32</p>
-                    </div>
-                </div>
-                <div class="holding-value  d-flex justify-content-between align-items-center">
-                    <div class="hold d-flex align-items-center">
-                        <div class="gen-key-logo-content-img king-coin">
-                            <img src="./assets/images/Vector.svg" alt="crown-pic">
-                        </div>
-                        <h2 class="size18">KING</h2>
-                    </div>
-                    <div class="value">
-                        <p class="size15">0.3</p>
-                        <p class="size14 text-white">$672.32</p>
-                    </div>
-                </div>
-                <div class="holding-value  d-flex justify-content-between align-items-center">
-                    <div class="hold d-flex align-items-center">
-                        <div class="gen-key-logo-content-img">
-                            <img src="./assets/images/Group.svg" alt="crown-pic">
-                        </div>
-                        <h2 class="size18">PEPE</h2>
-                    </div>
-                    <div class="value">
-                        <p class="size15">0.3</p>
-                        <p class="size14 text-white">$672.32</p>
-                    </div>
-                </div>
-            </div>
-        </section> -->
+
         <section class="gen-key-logo-section ">
-            
+
             <div class="gen-key ">
                 <div class="gen-key-heading d-flex justify-content-between align-items-center">
                     <div class="gen-key-logo-content d-flex align-items-center">
@@ -73,10 +25,7 @@
                             <p class="size18">KingSwap</p>
                         </div>
                     </div>
-                    <!-- <div class="setting d-flex align-items-center">
-                        <p  class="size14">MevSafe 50% slippage</p>
-                        <img src="./assets/images/setting.svg" alt="">
-                    </div> -->
+
                 </div>
                 <div class="gen-key-content rounded">
                     <div class="gen-key-content-divs rounded pb-4 ">
@@ -88,17 +37,25 @@
                                 <p class="size36">2.35</p>
                             </div>
                             <div class="ethr-div d-flex align-items-center px-1">
-                                <img src="./assets/images/ethr.png" alt="" height="18px">
-                                <select class="form-select py-1  text-white" aria-label="">
-                                    <option selected>ETHR</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                </select>
+                                
+                                <div class="dropdown-div ">
+                                    <button class=" form-select" type="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        <img src="./assets/images/ethr.png" height="18px" alt=""> ETHR
+                                    </button>
+                                    <ul class="dropdown-menu text-white">
+                                        <li><a class="dropdown-item" href="#"><img src="./assets/images/Vector.svg"
+                                                    height="18px" alt=""> ETHR</a></li>
+                                        <li><a class="dropdown-item" href="#"><img src="./assets/images/Group.png"
+                                                    height="18px" alt=""> ETHR</a></li>
+                                        <li><a class="dropdown-item" href="#"><img src="./assets/images/ethr.png"
+                                                    height="18px" alt=""> ETHR</a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="fire-ball-parent justify-content-center"> 
+                    <div class="fire-ball-parent justify-content-center">
                         <div class="fire-ball-group " id="fire-ball-pepe">
                             <img src="./assets/images/Group.png" alt="">
                         </div>
@@ -125,81 +82,32 @@
                         </div>
                     </div>
                     <div class="gen-key-button" id="gen-key-button-id">
-                        
+
                         <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                            data-bs-target="#staticBackdrop" >
+                            data-bs-target="#staticBackdrop">
                             Generate Privet Key
                         </button>
 
                         <!-- Modal -->
                         <div class="modal  " id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
-                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                             <div class="modal-dialog  modal-dialog-centered custom-modal-dialog">
                                 <div class="modal-content">
                                     <p class="size18">ENTER YOUR PRIVET KEY</p>
                                     <input type="text" placeholder="RANDOM3348347i2301238123">
-                                    <a href="page.html" ><button type="button" class="btn btn-primary d-block"  id="continue-button" onclick="myFunction()" 
-                                        >CONTINUE</button></a>
-                                    
+                                    <a href="page.html"><button type="button" class="btn btn-primary d-block"
+                                            id="continue-button" onclick="myFunction()">CONTINUE</button></a>
+
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="token-selection " id="token-selection-id">
-                        <button>SELECT A TOKEN</button>
-                    </div> -->
+                    
                 </div>
             </div>
 
         </section>
-        <!-- <section class="gen-key-logo-section  holding-active  " id="active-section">
-            <div class="holdings">
-                <div class="holding-value d-flex justify-content-between align-items-center">
-                    <div class="hold">
-                        <h2 class="size18">Active</h2>
-                    </div>
-                    <div class="value">
-                        <h2 class="size18">$1,125</h2>
-                        <p class="size14 gray">Estimated Value</p>
-                    </div>
-                </div>
-            </div>
-            <div class="entry-current  d-flex justify-content-between align-items-center ">
-                <div class="entry"><p class="size14">Entry</p></div>
-                <div class="entry"><p class="size14">Current</p></div>
-            </div>
-            <div class="holding-value  d-flex justify-content-between align-items-center">
-                
-                <div class="value">
-                    <p class="size15">0.3</p>
-                    <p class="size14 text-white">$672.32</p>
-                </div>
-                <div class="value">
-                    <p class="size15">PEPE</p>
-                    <button class="volume size14 X3">3X</button>
-                </div>
-                <div class="value">
-                    <p class="size15">0.3</p>
-                    <p class="size14 text-white">$672.32</p>
-                </div>
-            </div>
-            <div class="holding-value  d-flex justify-content-between align-items-center">
-                
-                <div class="value">
-                    <p class="size15">0.3</p>
-                    <p class="size14 text-white">$672.32</p>
-                </div>
-                <div class="value">
-                    <p class="size15">KING</p>
-                    <button class="volume size14">0X</button>
-                </div>
-                <div class="value">
-                    <p class="size15">0.3</p>
-                    <p class="size14 text-white">$672.32</p>
-                </div>
-            </div>
-           
-        </section> -->
+        
     </div>
 
 
