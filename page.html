@@ -11,7 +11,7 @@
 
 <body>
 
-    <div class="conatiner-fluid d-flex justify-content-center align-items-center">
+    <div class="conatiner-fluid conatiner-fluid-page d-flex justify-content-center align-items-center">
         <section class="gen-key-logo-section  holding-active " id="holding-section">
             <div class="holdings">
                 <div class="holding-value  d-flex justify-content-between align-items-center">
@@ -88,13 +88,20 @@
                                 <p class="size36">2.35</p>
                             </div>
                             <div class="ethr-div d-flex align-items-center px-1">
-                                <img src="./assets/images/ethr.png" alt="" height="18px">
-                                <select class="form-select py-1  text-white" aria-label="">
-                                    <option selected>ETHR</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                </select>
+                                <div class="dropdown-div ">
+                                    <button class=" form-select" type="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        <img src="./assets/images/ethr.png" height="18px" alt=""> ETHR
+                                    </button>
+                                    <ul class="dropdown-menu text-white">
+                                        <li><a class="dropdown-item" href="#"><img src="./assets/images/Vector.svg"
+                                                    height="18px" alt=""> KING</a></li>
+                                        <li><a class="dropdown-item" href="#"><img src="./assets/images/Group.png"
+                                                    height="18px" alt=""> PEPE</a></li>
+                                        <li><a class="dropdown-item" href="#"><img src="./assets/images/ethr.png"
+                                                    height="18px" alt=""> BTC</a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
